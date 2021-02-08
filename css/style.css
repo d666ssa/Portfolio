@@ -3,6 +3,14 @@ body {
     font-size: 14px;
 }
 
+.light .circle circle {
+    fill:#FFFFFF;
+}
+
+.light .triangle path {
+    fill: #D40000;
+}
+
 .light {
     background-color: #F3F2F0;
     color:#010101;
@@ -77,6 +85,18 @@ header {
     color: #D40000;
 }
 
+.nav-info .nav-item {
+    position: relative;
+}
+
+.nav-info .nav-item::before {
+    content: none;
+    display: block;
+    width: 1px;
+    height: 24px;
+    background-color: #C4C4C4;
+}
+
 .social {
     display: flex;
     justify-content: space-between;
@@ -115,4 +135,14 @@ header {
 
 .skill .description {
     line-height: 150%;
+}
+
+.circle-main {
+    width: 253px;
+    height: 253px;
+}
+
+.circle-nav {
+    width: 106px;
+    height: 103.81px;
 }
